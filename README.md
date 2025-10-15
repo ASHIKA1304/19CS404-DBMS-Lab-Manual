@@ -163,21 +163,29 @@ VALUES ('978-1122334455', 'Cybersecurity Essentials', 'Alice Smith', 2021);
 
 ## 3. 
 
-<img width="1254" height="445" alt="image" src="https://github.com/user-attachments/assets/12c0a71b-1a9b-45ec-b0b4-03e8af413d31" />
+<img width="931" height="322" alt="image" src="https://github.com/user-attachments/assets/d4a35dfa-8aec-456d-801c-5c0a182763dc" />
+
+
 
 ```
+
 ALTER TABLE Employees ADD COLUMN Date_of_joining Date;
 
 ALTER TABLE Employees RENAME COLUMN job_title TO Designation;
+
 ```
 
 ## OUTPUT :
 
-<img width="1230" height="416" alt="image" src="https://github.com/user-attachments/assets/e6bf92be-55c8-46a0-ac30-979064d47403" />
+<img width="1254" height="445" alt="image" src="https://github.com/user-attachments/assets/12c0a71b-1a9b-45ec-b0b4-03e8af413d31" />
+
+
 
 ## 4.
 
-<img width="1234" height="374" alt="image" src="https://github.com/user-attachments/assets/78ac7d4e-6ab8-4940-b35b-29ec24dcd9cb" />
+
+<img width="1230" height="416" alt="image" src="https://github.com/user-attachments/assets/e6bf92be-55c8-46a0-ac30-979064d47403" />
+
 
 ```
 CREATE TABLE Invoices (
@@ -191,11 +199,14 @@ CREATE TABLE Invoices (
 
 ## OUTPUT :
 
+<img width="1234" height="374" alt="image" src="https://github.com/user-attachments/assets/78ac7d4e-6ab8-4940-b35b-29ec24dcd9cb" />
+
+
+## 5.
+
 <img width="1301" height="365" alt="image" src="https://github.com/user-attachments/assets/c755e7f2-1bf7-4193-b109-59a15c630437" />
 
-## 5
 
-<img width="1294" height="287" alt="image" src="https://github.com/user-attachments/assets/058e4669-db4c-4d9c-b086-3ae66694cba6" />
 
 ```
 
@@ -219,11 +230,13 @@ CREATE TABLE Invoices (
 
 ## OUTPUT : 
 
-<img width="1179" height="312" alt="image" src="https://github.com/user-attachments/assets/e02b734e-63d8-4262-a1bf-07ef6ca68dd2" />
+<img width="1294" height="287" alt="image" src="https://github.com/user-attachments/assets/058e4669-db4c-4d9c-b086-3ae66694cba6" />
+
 
 ## 6.
+<img width="1179" height="312" alt="image" src="https://github.com/user-attachments/assets/e02b734e-63d8-4262-a1bf-07ef6ca68dd2" />
 
-<img width="1303" height="297" alt="image" src="https://github.com/user-attachments/assets/b4ae334c-9785-461b-8e1a-ebeadbc5ac7f" />
+
 
 ```
 CREATE TABLE Department (
@@ -235,11 +248,15 @@ CREATE TABLE Department (
 
 ## OUTPUT :
 
-<img width="868" height="478" alt="image" src="https://github.com/user-attachments/assets/1d4a1a00-0c5b-403f-b8ed-190517ef4dd8" />
+<img width="1303" height="297" alt="image" src="https://github.com/user-attachments/assets/b4ae334c-9785-461b-8e1a-ebeadbc5ac7f" />
+
+
 
 ## 7.
 
-<img width="1300" height="354" alt="image" src="https://github.com/user-attachments/assets/b3686784-2fa1-4b53-9587-facdbf68beb9" />
+<img width="868" height="478" alt="image" src="https://github.com/user-attachments/assets/1d4a1a00-0c5b-403f-b8ed-190517ef4dd8" />
+
+
 
 ```
 ALTER TABLE Student_details
@@ -248,11 +265,13 @@ ADD COLUMN mobilenumber number;
 
 ## OUTPUT :
 
-<img width="1169" height="316" alt="image" src="https://github.com/user-attachments/assets/16da3746-eb15-47cb-8f12-5db0a1528d68" />
+<img width="1300" height="354" alt="image" src="https://github.com/user-attachments/assets/b3686784-2fa1-4b53-9587-facdbf68beb9" />
 
 ## 8.
 
-<img width="1306" height="305" alt="image" src="https://github.com/user-attachments/assets/4bc7d914-73f7-449d-80f5-1f6ef81e4da4" />
+<img width="1169" height="316" alt="image" src="https://github.com/user-attachments/assets/16da3746-eb15-47cb-8f12-5db0a1528d68" />
+
+
 
 ```
 INSERT INTO Books (ISBN, Title, Author, Publisher, YearPublished)
@@ -261,6 +280,9 @@ FROM Out_of_print_books;
 ```
 
 ## OUTPUT :
+
+<img width="1306" height="305" alt="image" src="https://github.com/user-attachments/assets/4bc7d914-73f7-449d-80f5-1f6ef81e4da4" />
+
 
 
 ## 9.
@@ -310,4 +332,9 @@ CREATE TABLE Products(
 ## OUTPUT :
 
 <img width="1310" height="301" alt="image" src="https://github.com/user-attachments/assets/da377e8f-b248-405c-8f2f-8f34bd0c90f9" />
+
+
+## RESULT :
+
+Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
 
